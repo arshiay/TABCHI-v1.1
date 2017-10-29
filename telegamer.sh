@@ -46,7 +46,7 @@ cat << EOF
  $bld$f1 ▄▀     ▀▄    $f2▄▄▀▀ ▀▀ ▀▀▄▄   $f3▄▀▄▀▀▄▀▄   $f4 ▄▀     ▀▄    $f5▄▄▀▀ ▀▀ ▀▀▄▄   $f6▄▀▄▀▀▄▀▄$rst
 EOF
 echo "Try To Checking Tabchi Folder"
-ls ../ | grep tabchi 2>/dev/null >/dev/null
+ls ../ | grep TABCHI-v1.1 2>/dev/null >/dev/null
 if [ $? != 0 ]; then
   echo -e "$f1 ERROR: Tabchi: Tabchi Folder NOT FOUND IN YOUR HOME DIRECTORY$rst"
   echo -e "$f1 ERROR: Try To Change Tabchi Folder Name To tabchi$rst"
@@ -73,7 +73,7 @@ while true ; do
   echo -e "$bld$f2 BOT Reloaded$rst"
   echo -e "$bld$f2 Bot Source : Tabchi $rst"
   sleep 0.5
-  echo -e "$bld$f2 Github : https://github.com/arshiay/tabchi $rst"
+  echo -e "$bld$f2 Github : https://github.com/arshiay/TABCHI-v1.1 $rst"
   sleep 0.5
   echo -e "$bld$f2 Telegram  : T.ME/arshiay $rst"
   sleep 0.5
