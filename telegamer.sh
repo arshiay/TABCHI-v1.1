@@ -57,7 +57,7 @@ echo -e "$f2 Tabchi Folder FOUND IN YOUR HOME DIRECTORY$rst"
 ls ./ | grep tabchi.license 2>/dev/null >/dev/null
 if [ $? != 0 ]; then
   echo -e "$f1 ERROR: Tabchi: This Auto Launcher Can Be Used Just For Our Source$rst"
-  echo -e "$bld$f2 Github : https://github.com/arshiay/tabchi $rst"
+  echo -e "$bld$f2 Github : https://github.com/arshiay/TABCHI-v1.1 $rst"
   sleep 4
   exit 1
 fi
